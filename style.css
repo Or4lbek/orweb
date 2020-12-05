@@ -629,7 +629,7 @@ input{
     display: block;
 }#toggle {
     display: none;
-}.label{
+}.navbar{
    display:none;
 }
 @media(max-width:530px){
@@ -662,8 +662,8 @@ input{
         margin-right: 100px;
         margin-left: 150px;
     }
-    label{
-		display: block;
+    .navbar{
+	display: block;
 	}
     .gallery_item{
         max-width: 350px;
