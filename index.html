@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Almaty Credo
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    
+        <link rel="stylesheet" type="text/css" href="lightbox.min.css">
+        <script src="lightbox-plus-jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+
+        <link rel="icon" href="log.ico">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body onload = "load()">
+        <div class="page">
+        <div id="credo1" class="header">
+                <div class = "container1">
+                    <div class="navbar">
+                        <label for="toggle">&#9776;</label>
+                    </div>
+                    <input type="checkbox" name="" id="toggle">
+                    <div class="header_innner">
+                        <div class="nav">
+                            <div><a class= "nav_link" href="#">Home</a></div>
+                            <div><a class= "nav_link" href="#about_us">Company</a></div>
+                            <div><a class= "nav_link" href="#Services">Services</a></div>
+                            <div><a class= "nav_link" href="#cont">Contacts</a></div>
+                        </div>
+                        <div class="header_logo"  onclick="window.location.reload()">
+                            <img id="img1" src="Credo 22 png.png", height="70px">
+                            
+                        </div>
+                    </div>
+                    <img class="blin" id="img111" src="credo/Credo_2_png-removebg-preview.png", height="100px">
+                </div>
+           
+        </div>
+        <div class="main">
+            <div class="container_main"></div>
+            
+                <div class="sub_container">
+                <div class = "intro_img">
+                    <img src="credo/credo a.png">
+                </div>
+
+				<div class="intro_inner">
+					<h1 class="intro_title">
+                        <strong>НАРУЖНАЯ РЕКЛАМА</strong>
+                    </h1>
+                    <p class="intro_subtitle">
+                        Мы предлагаем свои услуги по установке качественной и красочной наружной рекламы в Алматы!
+                        Для Вас объемные буквы, световые короба, вывески, таблички, штендеры, стеллы, баннера и много других рекламных приспособлений. 
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="popup">
+         <div class="popup-content">
+            <img onclick = "close_popup()" class = "x1" src="closed.png" width="5%">
+            <img  src="Credo 33 png.png" width="40%" style="margin-top: 30px;margin-bottom: 30px;">
+            <p>Мы с вами свяжемся</p>
+            <input id="username" type="text" name="username" placeholder="Имя">
+            <input  id ="usernumber" type="text" name="num" placeholder="Номер телефона">
+            <input  id ="usermail" type="text" name="mail" placeholder="Почтовый адрес">
+
+            <button id = "question"  onclick = "close_popup()" class="btn btn-success" style="color: #fff;">Отправить заявку</button>
+          </div>
+         </div>
+     </div>
+        <br>
+        <br>
+        <br>
+
+
+        <div class="about_us_main">
+            <div class="about_us_content">
+                <div class="giff_au">
+                    <h2 id="about_us_text">Хотите развить свой бизнес?</h2>
+                    <img src="https://images.bhaskarassets.com/web2images/521/2019/04/27/0521_desktop.gif"  width="80%">    
+                </div>
+                <div class="a_main_text1">
+                    <div class="text1">Вы можете связаться с нами прямо сейчас и получить  консультацию!</div> 
+                    <div onclick="popup()" class="botton_info" ><button type="button" class="btn btn-outline-info">Оставить заявку</button></div>
+                </div>
+            </div>
+
+        <br>
+        <br>
+        <section id="about_us">
+            <div class="company" >
+                <div class = "box1">
+                    <div class="box1_content">
+                        <h1>Улучшите свой бизнес вместе с нами!!!</h1>
+                        <br>
+                        <p>Наша компания обладает всеми необходимыми ресурсами для создания качественной и эффективной наружной рекламы:</p>
+                    </div>
+                </div>
+                <div class = "box2">
+                    <img id = "boximg2"src="one.png" height="95px">
+                    <br>
+                    <img id="master" src="master.png" height="130px">
+                    <p >профессиональная команда с большим опытом</p>
+                </div>
+                <div class = "box3">
+                    <img id = "boximg3"src="two.png" width="100px">
+                    <br>
+                    <img id="structure" src="structure.png" height="150px">
+                    <p id="s_text">использование высококачественных материалов</p>
+                </div>
+                <div class = "box4">
+                    <img id = "boximg4"src="three.png" width="130px">
+                    <img id="rocket" src="rocket.png" height="150px">
+                    <p id="r_text">скорость и индивидуальный подход к клиентам</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="video-box">
+            <h3 class="posmotri_video">Посмотрите видео о том как мы работаем!</h3>
+            <img class="phon" src="Times-Square-7.JPG" height="550px" width="100%">
+
+            <div onclick="popup_video()" class="play-btn">
+                <i class="fa fa-play" aria-hidden="true"></i>
+            </div>
+        
+            <div class="popup_video" onclick="close_popup_video()">
+               <!---<img  onclick="close_popup_video()" class="x" src="closed.png" width="10%">--> 
+                <video id = "video1" width="720" height="480" controls>
+                    <source src="images/play.mp4" type="video/mp4">
+                        Credo
+                </video>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="uslugi">
+            <h2>Наши услуги</h2>
+        </div>
+        <div id ="Services" class="company2">
+            
+            <div class="gallery swiper-container">
+                <div class="gallery_list swiper-wrapper">
+                    <div class="gallery_item swiper-slide">
+                        <img src="images/stroke2.png" alt="alt">
+                        <div class="text">
+                            <h3 class="title">Бегущие строки</h3>
+                            <p>
+                                Бегущая строка — электронное устройство, предназначенное для отображения текстовой и графической информации. В самом простом варианте текст просто «бежит», двигаясь справа налево.
+                            </p>
+                        </div>
+                    </div>
+        
+                    <div class="gallery_item swiper-slide">
+                        <img src="images/mantana.png" alt="alt">
+                        <div class="text">
+                            <h3 class="title">Вывески, крышные установки</h3>
+                            <p>
+                                Крышные установки – это рекламные конструкции, устанавливаемяш на крышу здания. Наиболее оптимально для установки крышной рекламы подходят здания, расположенные на самых значимых улицах, проспектах и магистралях.
+                            </p>
+                        </div>
+                    </div>
+        
+                    <div class="gallery_item swiper-slide">
+                        <img src="images/banner1.png" alt="alt">
+                        <div class="text">
+                            <h3 class="title">Информационные стенды, баннеры.</h3>
+                            <p>
+                                Рекламные информационные стенды носят именно рекламных характер и направлены на воздействие на потенциальных потребителей. На таких стендах присутствует информация о компании, ее услугах и товарах, ее сотрудниках, о ценах.
+                            </p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="gallery_item swiper-slide">
+                        <img src="images/cars.png" alt="alt">
+                        <div class="text">
+                            <h3 class="title">Брендирование авто</h3>
+                            <p>
+                                Брендирование авто – легкий способ увеличить узнаваемость бренда!
+                                Один из самых распространенных и быстро развивающихся видов рекламы – это брендирование автотранспортных средств.                            
+                            </p>
+                        </div>
+                    </div>
+        
+
+                    <div class="gallery_item swiper-slide">
+                        <img src="images/kaz2.png" alt="alt">
+                        <div class="text">
+                            <h3 class="title">Информационные стенды</h3>
+                            <p>
+                                Это одна из наших крупных школьных стендов длиной 24м.Использовались сертифицированные гос. символики, качественные материалы, такие как: ПВХ 3-5-8мм (повышенной плотности), акрил, орг стекло (для кармашек), качественная печать и плёнки.... 
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="gallery_item swiper-slide">
+                        <img src="images/ramsey.png" alt="alt">
+                        <div class="text">
+                            <h3 class="title">Световые буквы</h3>
+                            <p>
+                                Объемная световая буква – это рекламное изделие с внутренней подсветкой источниками света и состоящее из двух частей- основания и лицевой крышки, закрепленное на фасаде магазина, стене в офисе или с месте продаж
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="gallery_item swiper-slide">
+                        <img src="images/litebox2.png" alt="alt">
+                        <div class="text">
+                            <h3 class="title">Лайтбоксы</h3>
+                            <p>
+                                Световой бокс  — светотехническое изделие, которое представляет собой объемную конструкцию с лицевой поверхностью из транслюцентного материала , с боковинами и тыльной  поверхностью из металла или пластика ПВХ.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="gallery_item swiper-slide">
+                        <img src="images/zona.png" alt="alt">
+                        <div class="text">
+                            <h3 class="title">Фотозоны</h3>
+                            <p>
+                                Правильный фон, соответствующий настроению и концепции праздника, в сочетании с умелыми действиями фотографа помогут получить по-настоящему впечатляющие фото на память.
+                            </p>
+                        </div>
+                    </div>
+
+                    
+
+                    
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="btn_div">
+            <button onclick="displayFn()" id="Btn">Показать галерею</button>
+        </div>
+        <div id="second_gallery">
+            <div id="gallery_2">
+                <a href="images/mantana3.png" data-lightbox="mygallery" data-title=""><img src="images/mantana3.png" width="450px"></a>
+                <a href="images/lemon.png" data-lightbox="mygallery" data-title=""><img src="images/lemon.png"  width="450px"></a>
+                <a href="images/stol3.png" data-lightbox="mygallery" data-title=""><img src="images/stol3.png"  width="450px"></a>
+                <a href="images/ramsey.png" data-lightbox="mygallery" data-title=""><img src="images/ramsey.png"  width="450px"></a>
+                <a href="images/old.png" data-lightbox="mygallery" data-title=""><img src="images/old.png"  width="450px"></a>
+                <a href="images/tolebi3.png" data-lightbox="mygallery" data-title=""><img src="images/tolebi3.png"  width="450px"></a>
+                <a href="images/qaharman.png" data-lightbox="mygallery" data-title=""><img src="images/qaharman.png" width="450px"></a>
+                <a href="images/stol 2.png" data-lightbox="mygallery" data-title=""><img src="images/stol 2.png"  width="450px"></a>
+                <a href="images/mantana.png" data-lightbox="mygallery" data-title=""><img src="images/mantana.png"  width="450px"></a>
+                <a href="images/med 2.png" data-lightbox="mygallery" data-title=""><img src="images/med 2.png"  width="450px"></a>
+                <a href="images/sarai.png" data-lightbox="mygallery" data-title=""><img src="images/sarai.png"  width="450px"></a>
+
+                <a href="images/lemon 2.png" data-lightbox="mygallery" data-title=""><img src="images/lemon 2.png"  width="450px"></a>
+                <a href="images/med.png" data-lightbox="mygallery" data-title=""><img src="images/med.png"  width="450px"></a>
+                <a href="images/krisha.png" data-lightbox="mygallery" data-title=""><img src="images/krisha.png"  width="450px"></a>
+                <a href="images/atakent.png" data-lightbox="mygallery" data-title=""><img src="images/atakent.png"  width="450px"></a>
+                <a href="images/lame.png" data-lightbox="mygallery" data-title=""><img src="images/lame.png"  width="450px"></a>
+
+                <a href="images/rich.png" data-lightbox="mygallery" data-title=""><img src="images/rich.png"  width="450px"></a>
+                <a href="images/work.png" data-lightbox="mygallery" data-title=""><img src="images/work.png"  width="450px"></a>
+                <a href="images/karakat.png" data-lightbox="mygallery" data-title=""><img src="images/karakat.png"  width="450px"></a>
+                <a href="images/arti.png" data-lightbox="mygallery" data-title=""><img src="images/arti.png"  width="450px"></a>
+                <a href="images/lite.png" data-lightbox="mygallery" data-title=""><img src="images/lite.png"  width="450px"></a>
+            </div>
+        </div>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <div class="about_work">
+            <h3>Прозрачная схема работы</h3>
+            <div class="container_about_work">
+                <div class="process1">
+                    <img src="images/call.png" width="95%">
+                    <p>Обработка заявки</p>
+                </div>
+                <div class="process2">
+                    <img src="images/develop.png" width="95%">
+                    <p>Разработка проекта</p>
+                </div>
+                <div class="process3">
+                    <img src="images/cost.png" width="95%">
+                    <p>Расчет стоимости</p>
+                </div>
+                <div class="process4">
+                    <img src="images/bilbord.png" width="95%">
+                    <p>Производство вывески </p>
+                </div>
+                <div class="process5">
+                    <img src="images/pay.png" width="95%">
+                    <p>Оплата заказа</p>
+                </div>
+                <div class="process6">
+                    <img src="images/download.png" width="95%">
+                    <p>Доставка и установка</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h3 id="cont">
+            Вы можете найти нас здесь!
+        </h3>
+        <div class="footer">
+            
+            <div class="container_footer">
+            <div class="mesenger">
+                <div class="instagram_c">
+                    <a href="https://www.instagram.com/reklama_almaty_credo/"><img class="instagram"  src="instagram.png" width="8%"></a>
+                    <a href="https://www.instagram.com/reklama_almaty_credo/"><p  class="p1w" id="block1"><i class="fab fa-instagram"></i> @reklama_almaty_credo</p></a>
+                </div>
+                <div class="telegram_c">
+                    <a href="https://t.me/Or4lbek"><img class="telegram" src="telegram.png" width="8%"></a>
+                    <a href="https://t.me/Or4lbek"><p class = "p2w" id="block1"><i class="fab fa-telegram"></i> @almaty_credo</p></a>
+                </div>
+                <div class="whatsapp_c">
+                    <a href="https://wa.me/77072060141"><img class="whatsapp" src="whatsapp2.png" width="8%" style="color: #fff;"></a>
+                    <a href="https://wa.me/77072060141"><p class = "p3w" id="block1"><i class="fab fa-whatsapp"></i> +77072060141</p></a>
+                </div>
+                <div class="ad">
+                    <a href="https://www.google.com/maps/place/Credo+Almaty/@43.224396,76.829279,17z/data=!4m5!3m4!1s0x0:0x10a246d84562fa65!8m2!3d43.224396!4d76.8292794?hl=ru"><img class="ad_img" src="location.png" width="8%"></a>
+                    <a href="https://www.google.com/maps/place/Credo+Almaty/@43.224396,76.829279,17z/data=!4m5!3m4!1s0x0:0x10a246d84562fa65!8m2!3d43.224396!4d76.8292794?hl=ru"><p class = "p4w" id="block1"><i class="fas fa-map-marker-alt"></i> Адрес:  <strong>Ш.Кажыгалиева 22</strong></p></a>
+                </div>
+            </div>
+           
+            <div class="address_footer">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d726.8222985089379!2d76.82927939999999!3d43.224396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x388369e7cc065b9f%3A0x10a246d84562fa65!2sCredo%20Almaty!5e0!3m2!1sru!2skz!4v1605701398248!5m2!1sru!2skz" width="600" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+            </div>
+            </div>
+           
+        </div>
+
+        
+ 
+        <p id="sdu">©SDU</p>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script type="text/javascript"  src="main.js ">
+        </script>
+        </div>
+    </body>
+</html>
