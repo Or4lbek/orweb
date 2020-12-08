@@ -614,7 +614,8 @@ input{
     padding: 10px 20px;
     
     transition: all .5s ease;
-    margin-left: 45%;
+    margin-left: 50%;
+    transform: translate(-50%,0);
 }#Btn:hover{
     background-color: orange; 
     border-color: orange;
@@ -742,10 +743,8 @@ input{
         
         padding-left: 10px;
         
-    }#Btn{
-        padding-top: 20px;
-        margin-left: 35%;
-    }#gallery_2{
+    }
+    #gallery_2{
         max-width: 90%;
     }.intro_inner{
         margin-top: 50px;
