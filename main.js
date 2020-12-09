@@ -70,7 +70,8 @@ var swiper = new Swiper('.swiper-container', {
 var myVideo = document.getElementById("video1");
        
 function popup_video(){    
-    document.querySelector(".popup_video").style.display = "flex";       
+    document.querySelector(".popup_video").style.display = "flex";
+    myVideo.play(); 
 }
 
 function close_popup_video(){   
