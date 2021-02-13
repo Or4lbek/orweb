@@ -35,8 +35,7 @@ header
 	justify-content: space-evenly;
     align-items: center;
 }
-/*Nav
-===========================*/
+/*===========================*/
 .nav{
 	display: flex;
 	font-size: 13px;
@@ -87,8 +86,7 @@ header
     }
 }
 
-/*
-====================================================
+/*====================================================
 main*/
 .main{
     
@@ -97,16 +95,10 @@ main*/
     background-color:#E5EDF7;
     background-image: url(bcg2.jpg);
     background-repeat: no-repeat;
-    
-    
-    
 }.intro_img img{
     width: 60%
 }
-
 .intro_title{
-	
-
 	font-family: 'Open Sans',sans-serif;
 	font-size: 35px;
 	line-height: 1.1;
@@ -155,8 +147,6 @@ main*/
     /*==================*/
     
 }
-
-
 /*====================================*/
 .about_us_content{
     display: flex;
